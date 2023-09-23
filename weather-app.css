@@ -1,0 +1,54 @@
+* {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  justify-content: space-between;
+  position: relative;
+}
+
+h1 {
+  font-size: 40px;
+  text-decoration-line: underline;
+}
+
+.Dark-Mode {
+  font-size: 17px;
+}
+
+.searchBar {
+  width: 550px;
+  height: 20px;
+  font-size: large;
+  text-align: left;
+}
+
+table {
+    border-color: black;
+    border: 2px solid;
+    width: 40%;
+    height: 500px;
+    margin: 50px auto;
+    box-shadow: 0px 10px 20px rgba(8, 8, 8, 0.2);
+    border-radius: 24px;
+    padding: 28px;
+    border-color: black;
+    border-style: solid;
+  }
+  
+ 
+
+  video {
+   object-fit: cover;
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+  }
+
+  .video-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+
+  }
