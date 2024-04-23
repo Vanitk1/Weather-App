@@ -1,30 +1,51 @@
 <!DOCTYPE html>
-
 <html>
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
   <title>Check the Weather</title>
   <link rel="stylesheet" href="weather-app.css">
-  
 </head> 
 <body>
-    <div class="video-wrapper">
-        <video autoplay muted loop id="04.mov">
-        <source src="04.mov" type="video/mp4">
+  <div class="video-wrapper">
+    <video autoplay muted loop id="04.mov">
+      <source src="04.mov" type="video/mp4">
     </video>
-  <h1>WEATHER</h1>
-  <div class="search">
-    <button class="Dark-Mode">Dark Mode</button>
-    <span class="add">🔍</span>
-    <input class="searchBar" type="text" value="Search City">
-  </div>
+    <h1>WEATHER</h1>
+    <div class="search">
+      <button class="toggle-F">F</button>
+      <button class="Dark-Mode">Dark Mode</button>
+      <span class="add">🔍</span>
+      <input class="searchBar" type="text" value="Search City">
+    </div>
 
-  <table class="Weather-table">
-    <div class="weather-times">
-      <div class="weather-days">    
-      </div>
-  </table>
-</div>
-</body>
+    <table class="Weather-table">
+      <tr>
+        <td>
+          <span class="city"></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span class="weatherCondition"></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span class="temp"></span>
+          <span class="deg">°C</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="weather-days"> 
+            <span class="feelsLike"></span>
+            <span class="tempMax"></span>
+            <span class="humidity"></span>   
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
   <script src="weather-app.js"></script>
+</body>
 </html>
